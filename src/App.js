@@ -23,7 +23,9 @@ function App() {
           </div>
         </body>
       </div>
+      <footer><a href="https://github.com/DerryGirl93/weather-app-react" target="_blank" rel="noreferrer">Open-source code</a>, by <a href="https://www.linkedin.com/in/emma-o-deorain-2b98408b/" target="_blank" rel="noreferrer">Emma O'Deorain</a> </footer>
     </div>
+    
   );
 }
 
