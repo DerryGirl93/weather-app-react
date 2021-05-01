@@ -5,16 +5,17 @@ export default function Search() {
   return (
     <div className="Search">
       <form>
-        <div className="form-group w-50">
+        <div className="form-group">
           <input
             type="text"
-            placeholder="City Name"
+            placeholder="Search for a City"
             className="form-control"
             id="exampleInputEmail1"
-            aria-describedby="emailHelp"
+            
           />
         </div>
-        <button type="submit">Change city</button>
+        <button type="submit">Change City</button>
+        <button type="submit">Current Location</button>
       </form>
     </div>
   );
