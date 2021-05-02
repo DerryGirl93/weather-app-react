@@ -2,15 +2,17 @@ import React from 'react';
 import './Search.css';
 
 export default function Search() {
+  
   return (
     <div className="Search">
       <form>
         <div className="form-group">
           <input
-            type="text"
+            type="search"
             placeholder="Search for a City"
             className="form-control"
             id="exampleInputEmail1"
+            autoFocus="on"
             
           />
         </div>
