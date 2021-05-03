@@ -7,6 +7,7 @@ export default function WeatherInfo(props){
       <h1>{props.data.city}</h1>
       <h2 className="text-capitalize">{props.data.description}</h2>
       <h2 className="celcius">{Math.round(props.data.temperature)}°C | 68°F </h2>
+      <img src={props.data.iconUrl} alt={props.data.description}/>
       <p>Last Updated: <FormattedDate date={props.data.date}/></p>
       <br />
       <p>
