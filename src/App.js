@@ -1,5 +1,4 @@
 import './App.css';
-import Search from './Search';
 import DisplayForecast from './DisplayForecast';
 import DisplayWeather from './DisplayWeather';
 
@@ -12,8 +11,6 @@ function App() {
         <body>
          <div className="card">
          <div className="card-body">
-           
-           <Search />
            <DisplayWeather defaultCity="London" />
            <DisplayForecast />
            </div>
