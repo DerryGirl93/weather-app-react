@@ -14,7 +14,7 @@ function App() {
          <div className="card-body">
            
            <Search />
-           <DisplayWeather />
+           <DisplayWeather defaultCity="London" />
            <DisplayForecast />
            </div>
            </div>
