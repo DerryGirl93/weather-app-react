@@ -9,7 +9,7 @@ export default function WeatherInfo(props){
       <h2 className="text-capitalize">{props.data.description}</h2>
       <WeatherTemperature celsius={props.data.temperature}/>
       <img src={props.data.iconUrl} alt={props.data.description}/>
-      <p>Last Updated: <FormattedDate date={props.data.date}/></p>
+      <FormattedDate date={props.data.date}/>
       <br />
       <p>
       <strong>Humidity: </strong>{props.data.humidity}%
