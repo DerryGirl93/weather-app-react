@@ -21,14 +21,15 @@ export default function DisplayForecast(props) {
        <div className="DisplayForecast">
       <div className="container">
         <div className="row">
-          
-            {forecast.map(function(dailyForecast, index){
+          {forecast.map(function(dailyForecast, index){
               if (index < 5) {
               return(
                 <div className="col">
                   <WeatherForecastDay data={dailyForecast}/>
                 </div>
               );
+              } else {
+                return null;
               }
             })}
         </div>
