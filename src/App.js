@@ -1,5 +1,4 @@
 import './App.css';
-import DisplayForecast from './DisplayForecast';
 import DisplayWeather from './DisplayWeather';
 
 
@@ -11,7 +10,7 @@ function App() {
          <div className="card">
          <div className="card-body">
            <DisplayWeather defaultCity="London" />
-           <DisplayForecast />
+           
            </div>
            </div>
       </div>

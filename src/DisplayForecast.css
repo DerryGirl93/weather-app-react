@@ -1,0 +1,12 @@
+.DisplayForecast {
+  text-align: center;
+}
+
+.forecast-temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.Forecast-day {
+  font-weight: 700;
+}
