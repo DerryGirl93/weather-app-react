@@ -43,7 +43,7 @@ function handleResponse(response){
     return(
     <div className="DisplayWeather">
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="form-group" >
           <input
             type="search"
             placeholder="Search for a City"
@@ -52,9 +52,8 @@ function handleResponse(response){
             autoFocus="on" 
             onChange = {handleCityChange}
           />
-        </div>
+      </div>
         <button type="submit">Change City</button>
-        <button type="submit">Current Location</button>
       </form>
       <WeatherInfo data={weatherData} />
       <DisplayForecast coordinates={weatherData.coordinates} />
